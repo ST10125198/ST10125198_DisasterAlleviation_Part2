@@ -1,0 +1,256 @@
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B1921F71-3375-360E-1317-37A7FB9E20E6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>ST10125198_DA_Part2</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\DisasterAlleviation\CopilotIndices\17.12.53.23981\CodeChunks.db" />
+    <None Include=".vs\DisasterAlleviation\CopilotIndices\17.12.53.23981\CodeChunks.db-shm" />
+    <None Include=".vs\DisasterAlleviation\CopilotIndices\17.12.53.23981\CodeChunks.db-wal" />
+    <None Include=".vs\DisasterAlleviation\CopilotIndices\17.12.53.23981\SemanticSymbols.db" />
+    <None Include=".vs\DisasterAlleviation\CopilotIndices\17.12.53.23981\SemanticSymbols.db-shm" />
+    <None Include=".vs\DisasterAlleviation\CopilotIndices\17.12.53.23981\SemanticSymbols.db-wal" />
+    <None Include=".vs\DisasterAlleviation\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\DisasterAlleviation\v17\.futdcache.v2" />
+    <None Include=".vs\DisasterAlleviation\v17\.suo" />
+    <None Include=".vs\DisasterAlleviation\v17\DocumentLayout.json" />
+    <None Include=".vs\ProjectEvaluation\disasteralleviation.metadata.v9.bin" />
+    <None Include=".vs\ProjectEvaluation\disasteralleviation.projects.v9.bin" />
+    <None Include=".vs\ProjectEvaluation\disasteralleviation.strings.v9.bin" />
+    <None Include="azure-pipelines.yml" />
+    <None Include="DisasterAlleviation\.vs\DisasterAlleviation\FileContentIndex\7fadfc3f-17e5-4f15-966e-b84e3eb6c65c.vsidx" />
+    <None Include="DisasterAlleviation\.vs\DisasterAlleviation\FileContentIndex\9c81ef3e-b446-46a3-9f24-6c76d17c66b7.vsidx" />
+    <None Include="DisasterAlleviation\.vs\DisasterAlleviation\v17\.wsuo" />
+    <None Include="DisasterAlleviation\.vs\DisasterAlleviation\v17\DocumentLayout.json" />
+    <None Include="DisasterAlleviation\.vs\slnx.sqlite" />
+    <None Include="DisasterAlleviation\.vs\VSWorkspaceState.json" />
+    <None Include="DisasterAlleviation\appsettings.Development.json" />
+    <None Include="DisasterAlleviation\appsettings.json" />
+    <None Include="DisasterAlleviation\bin\Debug\net6.0\appsettings.Development.json" />
+    <None Include="DisasterAlleviation\bin\Debug\net6.0\appsettings.json" />
+    <None Include="DisasterAlleviation\bin\Debug\net6.0\DisasterAlleviation.deps.json" />
+    <None Include="DisasterAlleviation\bin\Debug\net6.0\DisasterAlleviation.runtimeconfig.json" />
+    <None Include="DisasterAlleviation\bin\Debug\net6.0\DisasterAlleviation.staticwebassets.runtime.json" />
+    <None Include="DisasterAlleviation\DisasterAlleviation.csproj" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.AssemblyInfoInputs.cache" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.assets.cache" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.csproj.AssemblyReference.cache" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.csproj.BuildWithSkipAnalyzers" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.csproj.CopyComplete" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.csproj.CoreCompileInputs.cache" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.genruntimeconfig.cache" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.RazorAssemblyInfo.cache" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\project.razor.json" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\rpswa.dswa.cache.json" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\staticwebassets.build.json" />
+    <None Include="DisasterAlleviation\obj\Debug\net6.0\staticwebassets.development.json" />
+    <None Include="DisasterAlleviation\obj\DisasterAlleviation.csproj.nuget.dgspec.json" />
+    <None Include="DisasterAlleviation\obj\DisasterAlleviation.csproj.nuget.g.props" />
+    <None Include="DisasterAlleviation\obj\DisasterAlleviation.csproj.nuget.g.targets" />
+    <None Include="DisasterAlleviation\obj\project.assets.json" />
+    <None Include="DisasterAlleviation\obj\project.nuget.cache" />
+    <None Include="DisasterAlleviation\obj\Release\net6.0\DisasterAlleviation.AssemblyInfoInputs.cache" />
+    <None Include="DisasterAlleviation\obj\Release\net6.0\DisasterAlleviation.assets.cache" />
+    <None Include="DisasterAlleviation\obj\Release\net6.0\DisasterAlleviation.csproj.AssemblyReference.cache" />
+    <None Include="DisasterAlleviation\obj\Release\net6.0\DisasterAlleviation.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="DisasterAlleviation\obj\Release\net6.0\DisasterAlleviation.RazorAssemblyInfo.cache" />
+    <None Include="DisasterAlleviation\obj\staticwebassets.pack.sentinel" />
+    <None Include="DisasterAlleviation\Pages\Donate.cshtml" />
+    <None Include="DisasterAlleviation\Pages\Error.cshtml" />
+    <None Include="DisasterAlleviation\Pages\GoodList.cshtml" />
+    <None Include="DisasterAlleviation\Pages\Index.cshtml" />
+    <None Include="DisasterAlleviation\Pages\LogUser.cshtml" />
+    <None Include="DisasterAlleviation\Pages\monetaryDonate.cshtml" />
+    <None Include="DisasterAlleviation\Pages\Shared\_Layout.cshtml" />
+    <None Include="DisasterAlleviation\Pages\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="DisasterAlleviation\Pages\_ViewImports.cshtml" />
+    <None Include="DisasterAlleviation\Pages\_ViewStart.cshtml" />
+    <None Include="DisasterAlleviation\Properties\launchSettings.json" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="DisasterAlleviation\wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="DisasterAlleviation\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="DisasterAlleviation\wwwroot\lib\jquery\dist\jquery.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\DisasterAlleviation.dll" />
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\DisasterAlleviation.exe" />
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\DisasterAlleviation.pdb" />
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll" />
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll" />
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll" />
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+    <Content Include="DisasterAlleviation\bin\Debug\net6.0\System.Data.SqlClient.dll" />
+    <Content Include="DisasterAlleviation\DisasterAlleviation.csproj.user" />
+    <Content Include="DisasterAlleviation\DisasterDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DisasterAlleviation\DisasterDB_log.ldf">
+      <DependentUpon>DisasterDB.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\apphost.exe" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.csproj.FileListAbsolute.txt" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.dll" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.pdb" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\refint\DisasterAlleviation.dll" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\ref\DisasterAlleviation.dll" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\scopedcss\bundle\DisasterAlleviation.styles.css" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\scopedcss\projectbundle\DisasterAlleviation.bundle.scp.css" />
+    <Content Include="DisasterAlleviation\obj\Debug\net6.0\staticwebassets.removed.txt" />
+    <Content Include="DisasterAlleviation\Pages\Shared\_Layout.cshtml.css" />
+    <Content Include="DisasterAlleviation\wwwroot\css\site.css" />
+    <Content Include="DisasterAlleviation\wwwroot\css\Styles.css" />
+    <Content Include="DisasterAlleviation\wwwroot\favicon.ico" />
+    <Content Include="DisasterAlleviation\wwwroot\Icons\administrator.png" />
+    <Content Include="DisasterAlleviation\wwwroot\Icons\blood-donor.png" />
+    <Content Include="DisasterAlleviation\wwwroot\js\site.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="DisasterAlleviation\wwwroot\lib\jquery\LICENSE.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisasterAlleviation\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.AssemblyInfo.cs" />
+    <Compile Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.GlobalUsings.g.cs" />
+    <Compile Include="DisasterAlleviation\obj\Debug\net6.0\DisasterAlleviation.RazorAssemblyInfo.cs" />
+    <Compile Include="DisasterAlleviation\obj\Release\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="DisasterAlleviation\obj\Release\net6.0\DisasterAlleviation.AssemblyInfo.cs" />
+    <Compile Include="DisasterAlleviation\obj\Release\net6.0\DisasterAlleviation.GlobalUsings.g.cs" />
+    <Compile Include="DisasterAlleviation\obj\Release\net6.0\DisasterAlleviation.RazorAssemblyInfo.cs" />
+    <Compile Include="DisasterAlleviation\Pages\Donate.cshtml.cs" />
+    <Compile Include="DisasterAlleviation\Pages\Error.cshtml.cs" />
+    <Compile Include="DisasterAlleviation\Pages\GoodList.cshtml.cs" />
+    <Compile Include="DisasterAlleviation\Pages\Index.cshtml.cs" />
+    <Compile Include="DisasterAlleviation\Pages\LogUser.cshtml.cs" />
+    <Compile Include="DisasterAlleviation\Pages\monetaryDonate.cshtml.cs" />
+    <Compile Include="DisasterAlleviation\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\DisasterAlleviation\FileContentIndex\" />
+    <Folder Include=".vs\sd\" />
+    <Folder Include=".vs\ST10125198_DA_Part2\v17\" />
+    <Folder Include="DisasterAlleviation\bin\Release\net6.0\" />
+    <Folder Include="DisasterAlleviation\obj\Debug\net6.0\staticwebassets\" />
+    <Folder Include="DisasterAlleviation\obj\Release\net6.0\refint\" />
+    <Folder Include="DisasterAlleviation\obj\Release\net6.0\ref\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
